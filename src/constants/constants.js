@@ -57,7 +57,7 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey with learning C Programming', },
-  { year: 2018, text: 'Working on different things and learning new Programmings concepts and Programming Languages', },
+  { year: 2018, text: 'Worked on different things and learning new Programmings concepts and Programming Languages', },
   { year: 2019, text: 'Started JavaScript by making small Projects.', },
   { year: 2020, text: 'Started React and made a lots of Projects with it.', },
   { year: 2021, text: 'Learning more and more frameworks to master the Back-End as well as Front-End.', },
