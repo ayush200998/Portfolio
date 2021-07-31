@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link'
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
@@ -14,7 +14,7 @@ const Hero = () => (
         Web Developer from Bangalore, I enjoy building everything from small business
         sites to rich interactive web apps.
       </SectionText>
-      <Button> Learn More </Button>
+      <Link href='https://www.cakeresume.com/ayush-khakharia'><Button> Learn More </Button></Link>
     </LeftSection>
   </Section>
 );
