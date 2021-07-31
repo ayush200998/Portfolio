@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Expense Tracker',
+    description: "An Application used to manage user expenses, user can also add their expenses using voice command. It shows all the expense data Graphically.",
+      image: '/images/Expense.png',
+      tags: ['React', 'Context', 'Speechly', 'ChartJs', 'Netlify'],
+    source: 'https://elegant-cray-a3790f.netlify.app/',
+    visit: 'https://github.com/ayush200998/Expense-Tracker',
+    id: 6,
+  },
+  {
     title: 'Netflix Clone',
     description: "A Web app which shows list of movies to the user according to the Genre,It uses Email-password Authentication,The App is build using ReactJs and Firebase.",
       image: '/images/Netflix.png',
