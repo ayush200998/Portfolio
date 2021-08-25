@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Memories App',
+    description: "A MERN stack Application by which user can post, update, delete a particular memory. It uses Google Auth, JWT Auth for user Authentication.",
+      image: '/images/Memories.png',
+      tags: ['MERN Stack', 'Redux', 'Google Auth',],
+    source: 'https://memories-aps.netlify.app/',
+    visit: 'https://github.com/ayush200998/MemoriesApp',
+    id: 7,
+  },
+  {
     title: 'Expense Tracker',
     description: "An Application used to manage user expenses, user can also add their expenses using voice command. It shows all the expense data Graphically.",
       image: '/images/Expense.png',
