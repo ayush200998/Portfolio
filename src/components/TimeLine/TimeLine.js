@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm <Span>Ayush Khakharia</Span> a 26 year old Developer 
+        Hi, I'm <Span>Ayush Khakharia</Span> a 26 year old Developer,
         I've been building websites for past 4 years and also have a good experience as a Front-End as well as Back-End developer.<br/><br/> 
         You can <Span>Contact</Span> me on -<br/> 
         <Span>Email:</Span>khakharia.ayush20@gmail.com <br/>
