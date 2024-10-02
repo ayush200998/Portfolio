@@ -49,7 +49,7 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: #434649;
+  color: #FAFAFA;
   transition: 0.4s ease;
   &:hover {
     color: steelblue;
@@ -62,7 +62,7 @@ export const NavLink = styled.a`
 
 export const Span = styled.span`
   font-size: 2rem;
-  color: black;
+  color: #FAFAFA;
 `;
 
 /// DropDown Contact
@@ -116,11 +116,11 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
-color: #434649;
+color: #FAFAFA;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: #f5f5f5;
+    background-color: rgba(255, 255, 255, 0.25);
     transform: scale(1.2);
     cursor: pointer;
     

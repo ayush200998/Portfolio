@@ -11,10 +11,10 @@ const Hero = () => (
         Hey, I'm Ayush
       </SectionTitle>
       <SectionText>
-        Web Developer from Bangalore, I enjoy building everything from small business
+        Web Developer from Raipur, I enjoy building everything from small business
         sites to rich interactive web apps.
       </SectionText>
-      <Link href='https://www.cakeresume.com/ayush-khakharia'><Button> Learn More </Button></Link>
+      <Link href='https://www.cakeresume.com/ayush-khakharia' legacyBehavior><Button> Learn More </Button></Link>
     </LeftSection>
   </Section>
 );

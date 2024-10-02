@@ -33,7 +33,7 @@ export const SectionTitle = styled.h2`
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: #434649;
+  -webkit-text-fill-color: white;
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
   /* color: #434649; */
@@ -62,7 +62,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: gray;
+  color: #F5F5F5;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -178,7 +178,7 @@ export const ButtonBack = styled.div`
   align-items: center;
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
-  color: #434649;
+  color: #FAFAFA;
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
