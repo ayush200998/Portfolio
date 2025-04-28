@@ -1,13 +1,22 @@
 export const projects = [
-  // {
-  //   title: 'Lingo',
-  //   description: "A language learning application build using NextJs",
-  //     image: '/images/Room.png',
-  //     tags: ['NextJs', 'Stream Io', 'Clerk Auth',],
-  //   source: 'https://dbzoom-ayush200998s-projects.vercel.app',
-  //   visit: 'https://github.com/ayush200998/dbzoom',
-  //   id: 2,
-  // },
+  {
+    title: 'Lingo',
+    description: "An engaging, interactive app that makes language learning fun with hands-on activities and real-time feedback.",
+      image: '/images/Lingo.png',
+      tags: ['NextJs', 'Clerk Auth', 'Stripe'],
+    source: 'https://lingo-wheat-one.vercel.app/learn',
+    visit: 'https://github.com/ayush200998/Lingo',
+    id: 2,
+  },
+  {
+    title: 'Brainstormer',
+    description: "A platform designed to spark creativity through visual brainstorming. Easily construct illustrative diagrams to map out your ideas and simultaneously capture essential notes, ensuring a comprehensive and organized thought process.",
+      image: '/images/Brainstormer.png',
+      tags: ['NextJs', 'Excalidraw', 'Kinde', 'EditorJs'],
+    source: 'https://brainstormer-virid.vercel.app',
+    visit: 'https://github.com/ayush200998/Brainstormer',
+    id: 2,
+  },
   {
     title: 'Room',
     description: "A video conferencing application build using NextJs",
